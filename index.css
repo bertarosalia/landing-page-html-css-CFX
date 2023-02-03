@@ -1,0 +1,62 @@
+* {
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-image: url("img/header_CFX.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.container-name {
+  display: inline;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container-input {
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 40px;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #f44336;
+  margin-top: 40px;
+}
+
+::placeholder {
+  color: black;
+}
+
+@media only screen and (min-width: 700px) {
+  .container-name {
+    font-size: 70px;
+  }
+  .container-input {
+    font-size: 25px;
+    height: 50px;
+    width: 360px;
+  }
+}
